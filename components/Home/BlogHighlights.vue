@@ -54,7 +54,7 @@ const highlightArticles: HighLightArticleData[] = [
     id: 1,
     thumbnailUrl:
       "https://raw.githubusercontent.com/ahmomoz/hex2025-site-data/refs/heads/main/article-thumbnails/article-thumbnails-1.png",
-    tag: "前端開發 x 職涯成長",
+    tags: ["前端開發 x 職涯成長"],
     category: "最新文章",
     title: "自學前端不用怕：從零開始的三大關鍵",
     content:
@@ -65,7 +65,7 @@ const highlightArticles: HighLightArticleData[] = [
     id: 2,
     thumbnailUrl:
       "https://raw.githubusercontent.com/ahmomoz/hex2025-site-data/refs/heads/main/article-thumbnails/article-thumbnails-2.png",
-    tag: "#面試準備 #工程師求職",
+    tags: ["#面試準備", "#工程師求職"],
     category: "人氣文章",
     title: "前端面試不再慌：破解常見提問的三大策略",
     content:
@@ -76,7 +76,7 @@ const highlightArticles: HighLightArticleData[] = [
     id: 3,
     thumbnailUrl:
       "https://raw.githubusercontent.com/ahmomoz/hex2025-site-data/refs/heads/main/article-thumbnails/article-thumbnails-3.png",
-    tag: "#CSS設計 #視覺體驗",
+    tags: ["#CSS設計", "#視覺體驗"],
     title: "CSS 魔法大揭密：排版與設計的三大關鍵技巧",
     content:
       "在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧，幫助你更有效率地駕馭 CSS，打造兼具美感與功能性的網頁。",
@@ -86,7 +86,7 @@ const highlightArticles: HighLightArticleData[] = [
     id: 4,
     thumbnailUrl:
       "https://raw.githubusercontent.com/ahmomoz/hex2025-site-data/refs/heads/main/article-thumbnails/article-thumbnails-4.png",
-    tag: "#React #入門基礎",
+    tags: ["#React", "#入門基礎"],
     title: "React 入門不再迷惘：三步驟帶你上手核心概念",
     content:
       "你是否對 React 感到好奇，卻苦惱於該如何正式啟動學習之路？身為前端工程師兼職涯諮詢師，我常遇到同學問我：「React 到底該怎麼入門？」為了幫大家減少摸索的時間，我整理出三個循序漸進的關鍵步驟，帶你更輕鬆地掌握 React 核心概念，真正把理論應用在實際專案中。",
