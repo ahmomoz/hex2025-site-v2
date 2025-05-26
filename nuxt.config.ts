@@ -20,7 +20,6 @@ export default defineNuxtConfig({
           href: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css",
         },
       ],
-      viewport: "width=500, initial-scale=1",
       title: "Alyse Wang - 前端工程師 & 職涯諮詢師",
       meta: [
         {
