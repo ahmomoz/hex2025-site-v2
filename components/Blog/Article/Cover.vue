@@ -22,7 +22,7 @@ useSeoMeta({
               </time>
               <div class="article-tag-wrap f-align-center mt-1">
                 <h3 class="fs-4 fw-medium text-primary">前端開發 x 職涯成長</h3>
-                <span class="tag-primary ms-2">最新文章</span>
+                <a href="#" class="tag-primary ms-2">最新文章</a>
               </div>
               <h1 class="card-title fs-3">自學前端不用怕：從零開始的三大關鍵</h1>
             </div>

@@ -17,13 +17,13 @@ import articles from "~/data/articles";
       </div>
       <!-- 文章列表 -->
       <div class="row mt-10 mt-lg-0">
-        <div
+        <ul
           v-for="article in articles.slice(1,12)"
           class="col-lg-6 col-xxl-4 py-4 py-lg-10"
           :key="article._id"
         >
           <ArticleCard :article="article" />
-        </div>
+        </ul>
       </div>
       <div class="f-justify-center">
         <ClientOnly>

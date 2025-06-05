@@ -11,7 +11,7 @@ const { _id, thumbnailUrl, tags, category, title, preview, createdAt } =
 </script>
 
 <template>
-  <article class="article-card card card-column h-100 bg-transparent rounded-0">
+  <li class="article-card card card-column h-100 bg-transparent rounded-0">
     <img
       :src="thumbnailUrl"
       class="card-img-top rounded-0"
@@ -27,9 +27,9 @@ const { _id, thumbnailUrl, tags, category, title, preview, createdAt } =
             <h4 class="text-primary">{{ tag }}</h4>
           </li>
         </ul>
-        <span v-if="category" class="tag-primary ms-2">
+        <a v-if="category" href="#" class="tag-primary ms-2">
           {{ category }}
-        </span>
+        </a>
       </div>
       <h3 class="card-title">{{ title }}</h3>
       <p class="card-text text-truncate-2 mt-2" style="max-height: 48px">
@@ -44,7 +44,7 @@ const { _id, thumbnailUrl, tags, category, title, preview, createdAt } =
         </NuxtLink>
       </div>
     </div>
-  </article>
+  </li>
 </template>
 
 <style lang="scss" scoped>

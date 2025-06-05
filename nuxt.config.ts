@@ -36,6 +36,28 @@ export default defineNuxtConfig({
           content: "這是 Alyse Wang 的個人網站",
         },
       ],
+      script: [
+        {
+          src: "https://www.googletagmanager.com/gtag/js?id=G-057GRT317V",
+          async: true,
+        },
+        {
+          id: "gtag-init",
+          innerHTML: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-057GRT317V');
+          `,
+          type: "text/javascript",
+          tagPosition: "head",
+        },
+      ],
+    },
+  },
+  head: {
+    __dangerouslyDisableSanitizersByTagID: {
+      "gtag-init": ["innerHTML"],
     },
   },
   css: ["@/assets/stylesheets/all.scss"],
@@ -57,4 +79,5 @@ export default defineNuxtConfig({
       linkExactActiveClass: "active",
     },
   },
+  modules: ["nuxt-gtag"],
 });

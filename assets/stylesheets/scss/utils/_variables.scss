@@ -1401,19 +1401,19 @@ $pagination-focus-outline: 0 !default;
 // $pagination-hover-bg: var(--#{$prefix}tertiary-bg) !default;
 // $pagination-hover-border-color: var(--#{$prefix}border-color) !default; // Todo in v6: remove this?
 
-$pagination-hover-color: var(--#{$prefix}link-hover-color) !default; //custom
-$pagination-hover-bg: $brand-02; //custom
+$pagination-hover-color: $primary !default; // var(--#{$prefix}link-hover-color) !default; custom
+$pagination-hover-bg: $white !default; //custom
 $pagination-hover-border-color: transparent !default; // Todo in v6: remove this? //custom
 
-$pagination-active-color: $component-active-color !default;
+$pagination-active-color: $primary !default; // $component-active-color !default; custom
 // $pagination-active-bg: $component-active-bg !default;
-$pagination-active-bg: $brand-02 !default; //custom
+$pagination-active-bg: $white !default; //custom
 // $pagination-active-border-color: $component-active-bg !default;
 $pagination-active-border-color: $brand-03 !default; //custom
 
 $pagination-disabled-color: var(--#{$prefix}secondary-color) !default;
 // $pagination-disabled-bg: var(--#{$prefix}secondary-bg) !default;
-$pagination-disabled-bg: transparent !default; //custom
+$pagination-disabled-bg: $white !default; // transparent !default; custom
 // $pagination-disabled-border-color: var(--#{$prefix}border-color) !default;
 $pagination-disabled-border-color: transparent !default; //custom
 

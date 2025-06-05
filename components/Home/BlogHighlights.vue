@@ -102,13 +102,13 @@ const highlightArticles: HighLightArticleData[] = [
       <div class="service-card-wrap position-relative">
         <div class="swiper" ref="swiperRef">
           <div class="swiper-wrapper f-align-center">
-            <div
+            <ul
               v-for="article in highlightArticles"
               class="swiper-slide"
               :key="article.id"
             >
               <ArticleCard :article="article" />
-            </div>
+            </ul>
           </div>
         </div>
         <ClientOnly>
